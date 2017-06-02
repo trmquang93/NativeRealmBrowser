@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3BEA898D1EE151CE000D4016 /* NativeRealmBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEA898B1EE151CE000D4016 /* NativeRealmBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BEA89CB1EE1B40B000D4016 /* RealmBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA89C41EE1B40B000D4016 /* RealmBrowser.swift */; };
+		3BEA89CC1EE1B40B000D4016 /* RealmObjectBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA89C51EE1B40B000D4016 /* RealmObjectBrowserCell.swift */; };
+		3BEA89CD1EE1B40B000D4016 /* RealmObjectsBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA89C61EE1B40B000D4016 /* RealmObjectsBrowser.swift */; };
+		3BEA89CE1EE1B40B000D4016 /* RealmPropertyBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA89C71EE1B40B000D4016 /* RealmPropertyBrowser.swift */; };
+		3BEA89CF1EE1B40B000D4016 /* RealmPropertyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA89C81EE1B40B000D4016 /* RealmPropertyCell.swift */; };
+		3BEA89D01EE1B40B000D4016 /* RealmTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA89C91EE1B40B000D4016 /* RealmTools.swift */; };
+		3BEA89D11EE1B40B000D4016 /* UIApplication+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA89CA1EE1B40B000D4016 /* UIApplication+Ext.swift */; };
+		C10E266ED5EF7D3209C095B2 /* Pods_NativeRealmBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EEEFBF948C2B27DE32EBB2 /* Pods_NativeRealmBrowser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022FAAE4A886B4EDD2F58180 /* Pods-NativeRealmBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRealmBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRealmBrowser/Pods-NativeRealmBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		2552C0A8036D68AC4C8CF28B /* Pods-NativeRealmBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRealmBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRealmBrowser/Pods-NativeRealmBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		39EEEFBF948C2B27DE32EBB2 /* Pods_NativeRealmBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeRealmBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEA89881EE151CE000D4016 /* NativeRealmBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NativeRealmBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEA898B1EE151CE000D4016 /* NativeRealmBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeRealmBrowser.h; sourceTree = "<group>"; };
 		3BEA898C1EE151CE000D4016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEA89C41EE1B40B000D4016 /* RealmBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBrowser.swift; sourceTree = "<group>"; };
+		3BEA89C51EE1B40B000D4016 /* RealmObjectBrowserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmObjectBrowserCell.swift; sourceTree = "<group>"; };
+		3BEA89C61EE1B40B000D4016 /* RealmObjectsBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmObjectsBrowser.swift; sourceTree = "<group>"; };
+		3BEA89C71EE1B40B000D4016 /* RealmPropertyBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPropertyBrowser.swift; sourceTree = "<group>"; };
+		3BEA89C81EE1B40B000D4016 /* RealmPropertyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPropertyCell.swift; sourceTree = "<group>"; };
+		3BEA89C91EE1B40B000D4016 /* RealmTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmTools.swift; sourceTree = "<group>"; };
+		3BEA89CA1EE1B40B000D4016 /* UIApplication+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10E266ED5EF7D3209C095B2 /* Pods_NativeRealmBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +51,8 @@
 			children = (
 				3BEA898A1EE151CE000D4016 /* NativeRealmBrowser */,
 				3BEA89891EE151CE000D4016 /* Products */,
+				7AAE4CF73F22FBE57E36AF44 /* Pods */,
+				972FAC81EE772B3DCFEEA51F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +67,58 @@
 		3BEA898A1EE151CE000D4016 /* NativeRealmBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				3BEA89D31EE1B428000D4016 /* Cells */,
+				3BEA89D21EE1B412000D4016 /* ViewControllers */,
+				3BEA89931EE153BD000D4016 /* Objects */,
 				3BEA898B1EE151CE000D4016 /* NativeRealmBrowser.h */,
 				3BEA898C1EE151CE000D4016 /* Info.plist */,
 			);
 			path = NativeRealmBrowser;
+			sourceTree = "<group>";
+		};
+		3BEA89931EE153BD000D4016 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA89C91EE1B40B000D4016 /* RealmTools.swift */,
+				3BEA89CA1EE1B40B000D4016 /* UIApplication+Ext.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		3BEA89D21EE1B412000D4016 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA89C41EE1B40B000D4016 /* RealmBrowser.swift */,
+				3BEA89C61EE1B40B000D4016 /* RealmObjectsBrowser.swift */,
+				3BEA89C71EE1B40B000D4016 /* RealmPropertyBrowser.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3BEA89D31EE1B428000D4016 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA89C51EE1B40B000D4016 /* RealmObjectBrowserCell.swift */,
+				3BEA89C81EE1B40B000D4016 /* RealmPropertyCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		7AAE4CF73F22FBE57E36AF44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				022FAAE4A886B4EDD2F58180 /* Pods-NativeRealmBrowser.debug.xcconfig */,
+				2552C0A8036D68AC4C8CF28B /* Pods-NativeRealmBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		972FAC81EE772B3DCFEEA51F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39EEEFBF948C2B27DE32EBB2 /* Pods_NativeRealmBrowser.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,10 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BEA89901EE151CE000D4016 /* Build configuration list for PBXNativeTarget "NativeRealmBrowser" */;
 			buildPhases = (
+				140D342459929D8BB483CBCB /* [CP] Check Pods Manifest.lock */,
 				3BEA89831EE151CE000D4016 /* Sources */,
 				3BEA89841EE151CE000D4016 /* Frameworks */,
 				3BEA89851EE151CE000D4016 /* Headers */,
 				3BEA89861EE151CE000D4016 /* Resources */,
+				FA27FE69AEDF56E6DF00F491 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +167,7 @@
 					3BEA89871EE151CE000D4016 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = YAM83PRSX7;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,11 +199,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		140D342459929D8BB483CBCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA27FE69AEDF56E6DF00F491 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRealmBrowser/Pods-NativeRealmBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BEA89831EE151CE000D4016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BEA89CF1EE1B40B000D4016 /* RealmPropertyCell.swift in Sources */,
+				3BEA89CB1EE1B40B000D4016 /* RealmBrowser.swift in Sources */,
+				3BEA89CD1EE1B40B000D4016 /* RealmObjectsBrowser.swift in Sources */,
+				3BEA89D11EE1B40B000D4016 /* UIApplication+Ext.swift in Sources */,
+				3BEA89D01EE1B40B000D4016 /* RealmTools.swift in Sources */,
+				3BEA89CC1EE1B40B000D4016 /* RealmObjectBrowserCell.swift in Sources */,
+				3BEA89CE1EE1B40B000D4016 /* RealmPropertyBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +353,9 @@
 		};
 		3BEA89911EE151CE000D4016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022FAAE4A886B4EDD2F58180 /* Pods-NativeRealmBrowser.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YAM83PRSX7;
@@ -254,13 +368,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quangtrm.NativeRealmBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3BEA89921EE151CE000D4016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2552C0A8036D68AC4C8CF28B /* Pods-NativeRealmBrowser.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YAM83PRSX7;
@@ -296,6 +413,7 @@
 				3BEA89921EE151CE000D4016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
