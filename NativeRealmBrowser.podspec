@@ -39,5 +39,5 @@ s.dependency 'RealmSwift'
 s.source_files = "NativeRealmBrowser/**/*.{swift}"
 
 # 9
-s.resources = "NativeRealmBrowser/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "NativeRealmBrowser/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
