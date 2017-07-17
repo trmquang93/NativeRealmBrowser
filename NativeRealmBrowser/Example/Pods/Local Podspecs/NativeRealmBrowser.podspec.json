@@ -1,0 +1,22 @@
+{
+  "name": "NativeRealmBrowser",
+  "version": "0.1.0",
+  "summary": "A short description of NativeRealmBrowser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/trmquang93/NativeRealmBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "trmquang93": "trmquang3103@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/trmquang93/NativeRealmBrowser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NativeRealmBrowser/Classes/**/*"
+}
