@@ -17,24 +17,28 @@ Lightweight browser that let's you inspect which objects currently are in your r
     
 Use one of the three methods to browse your Realm database
 
+
+```swift
 /**
          Instantiate the browser using default Realm.
     
          - return an instance of realmBrowser
          */
-```swift
     public static func realmBrowser() -> UINavigationController?
 ```
-    /**
+   
+```swift
+ /**
          Instantiate the browser using a specific version of Realm.
     
          - parameter realm: Realm
          - returns an instance of realmBrowser
          */
-```swift
     public static func realmBrowserForRealm(_ realm: RealmSwift.Realm) -> UINavigationController?
 ```
-    /**
+    
+```swift
+/**
          Instantiate the browser using a specific version of Realm at a specific path.
          init(path: String) is deprecated.
     
@@ -43,7 +47,6 @@ Use one of the three methods to browse your Realm database
          - parameter url: URL
          - returns an instance of realmBrowser
          */
-```swift
     public static func realmBroswerForRealmURL(_ url: URL) -> UINavigationController?
 ```
 
