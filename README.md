@@ -5,11 +5,14 @@ Lightweight browser that let's you inspect which objects currently are in your r
 
 **import** NativeRealmBrowser
 
-```
-let realmBrowser = NativeRealmBrowser.realmBrowser()
-self.presentViewController(realmBrowser, animated: true) { 
-
-}
+- In any UIViewController:
+```swift
+            if let realmBrowser = RealmBrowser.realmBrowser() {
+                present(realmBrowser, animated: true, completion: nil)
+            }
+            else {
+                // Realm error
+            }
 ```    
     
 Use one of the three methods to browse your Realm database
